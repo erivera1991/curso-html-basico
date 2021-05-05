@@ -1,0 +1,160 @@
+html,Body{
+padding: 0%;
+margin: 0%;
+font-size: 10px;
+font-family: Helvetica;
+}
+
+label{
+    text-align: left;
+}
+
+nav{
+    display: flex;
+    padding: 2px;
+    background-color: pink;
+    
+
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+
+}
+
+nav li{
+  padding: 5px;
+}
+
+
+.main_secction{
+    padding: 10%;
+    text-align: center;
+    font-family: Times New Roman;
+}
+.productos{
+    background-image: url("../Imagenes/Fondo_Rosado.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: center top;
+    padding: 5%;
+    display: flex;
+    
+}
+
+.producto{
+    padding: 60px;
+    margin-top: -240px;
+    margin-left: 100px;
+    
+}
+.producto .content{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 20px black;
+    
+}
+
+.Img_Content{
+    text-align: center;
+}
+
+
+.main_button{
+    background-color: pink;
+    padding: 5px;
+    width: 100%;
+}
+
+.opciones{
+    display: flex;
+}
+
+.opcion1{
+    margin: 60px;
+    padding: 25px;
+}
+
+.opcion2{
+    margin:60px ;
+    padding: 30px;
+}
+
+.opcion3{
+    margin: 60px;
+    padding: 30px;
+}
+
+.opcion4{
+    margin: 60px;
+    padding: 30px;
+}
+
+.Menciones{
+    margin: 30px;
+    padding: 50px;
+    display: flex;
+
+}
+.Mentions{
+text-align: center;
+}
+.Menciones1{
+    margin: 30px;
+    padding: 30px;
+}
+
+.Menciones2{
+    margin: 30px;
+    padding: 30px;
+}
+
+.Menciones3{
+    margin: 30px;
+    padding: 40px;
+}
+
+.modulo_pago{
+    background-color: white;
+    box-shadow: 0 0 10px ;
+    padding: 10px;
+
+}
+.modulo_pago_Imagenes{
+    max-width: 150;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+.modulo_pago h3{
+    text-align: center;
+}
+
+.data{
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+.modulo_pago .main_btn{
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+
+
+
+.foot{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+
+
